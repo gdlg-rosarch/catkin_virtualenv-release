@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <!--
 Software License Agreement (GPL)
 
@@ -21,12 +22,12 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 <package format="2">
   <name>test_catkin_virtualenv_py3</name>
-  <version>0.1.3</version>
+  <version>0.1.4</version>
   <description>Package to test catkin_virtualenv in Python 3.</description>
-  <license>GPL</license>
 
-  <author email="pbovbel@locusrobotics.com">Paul Bovbel</author>
   <maintainer email="pbovbel@locusrobotics.com">Paul Bovbel</maintainer>
+  <license>GPL</license>
+  <author email="pbovbel@locusrobotics.com">Paul Bovbel</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
@@ -39,4 +40,4 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     <pip_requirements>requirements.txt</pip_requirements>
   </export>
 
-s</package>
+</package>
